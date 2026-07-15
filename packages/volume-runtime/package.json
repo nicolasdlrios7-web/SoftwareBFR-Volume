@@ -1,0 +1,19 @@
+{
+  "name": "@volume/volume-runtime",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@volume/volume-schema": "workspace:*",
+    "@volume/input-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@volume/config": "workspace:*",
+    "typescript": "^5.5.0"
+  }
+}
