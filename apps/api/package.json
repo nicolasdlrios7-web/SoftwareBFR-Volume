@@ -1,0 +1,23 @@
+{
+  "name": "@volume/api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@volume/domain": "workspace:*",
+    "@volume/database": "workspace:*",
+    "@volume/api-contracts": "workspace:*",
+    "fastify": "^4.28.0"
+  },
+  "devDependencies": {
+    "@volume/config": "workspace:*",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}

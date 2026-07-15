@@ -1,0 +1,14 @@
+{
+  "name": "@volume/api-contracts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": { "zod": "^3.23.0" },
+  "devDependencies": {
+    "@volume/config": "workspace:*",
+    "typescript": "^5.5.0"
+  }
+}

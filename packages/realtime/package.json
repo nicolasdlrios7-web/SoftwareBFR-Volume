@@ -1,0 +1,13 @@
+{
+  "name": "@volume/realtime",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "devDependencies": {
+    "@volume/config": "workspace:*",
+    "typescript": "^5.5.0"
+  }
+}
